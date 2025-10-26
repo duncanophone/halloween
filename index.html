@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halloween Soundboard</title>
+    <title>Duncan's Nox Pulso Halloween Soundboard</title>
     <style>
         /* Basic styling for a cleaner look */
         body {
@@ -14,18 +14,32 @@
             justify-content: center;
             min-height: 100vh;
             margin: 0;
-            background-color: #1a1a1a;
+            /* --- NEW BACKGROUND IMAGE --- */
+            background-image: url('http://googleusercontent.com/image_collection/image_retrieval/6684874280201041910_0');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; 
+            /* --- END NEW BACKGROUND IMAGE --- */
+            background-color: #1a1a1a; /* Fallback color */
             color: white;
+            padding: 20px;
         }
         h1 {
+            /* Updated Title Text */
             color: #ff6600;
+            /* Background to make the title readable over the image */
+            background-color: rgba(0, 0, 0, 0.7); 
+            padding: 10px 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
         }
         .sound-button {
             padding: 15px 30px;
             margin: 10px;
             font-size: 1.2em;
             cursor: pointer;
-            background-color: #333;
+            /* Make button slightly transparent for background to show */
+            background-color: rgba(51, 51, 51, 0.8); 
             color: white;
             border: 2px solid #ff6600;
             border-radius: 8px;
@@ -38,7 +52,7 @@
     </style>
 </head>
 <body>
-    <h1>🎃 Simple Soundboard 👻</h1>
+    <h1>Duncan's Nox Pulso Halloween Soundboard</h1>
 
     <button class="sound-button" data-sound="halloween_treat3.mp3">
         Play Treat Sound
