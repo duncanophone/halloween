@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween Soundboard</title>
+    <style>
+        /* Basic styling for a cleaner look */
+        body {
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #1a1a1a;
+            color: white;
+        }
+        h1 {
+            color: #ff6600;
+        }
+        .sound-button {
+            padding: 15px 30px;
+            margin: 10px;
+            font-size: 1.2em;
+            cursor: pointer;
+            background-color: #333;
+            color: white;
+            border: 2px solid #ff6600;
+            border-radius: 8px;
+            transition: background-color 0.1s;
+        }
+        .sound-button:hover {
+            background-color: #ff6600;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎃 Simple Soundboard 👻</h1>
+
+    <button class="sound-button" data-sound="halloween_treat3.mp3">
+        Play Treat Sound
+    </button>
+
+    <button class="sound-button" data-sound="halloween_backingmp3.mp3">
+        Play Backing Music
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
